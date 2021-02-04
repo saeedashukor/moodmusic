@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BAD09D0AC4AB3491C147471 /* Pods_moodmusic_moodmusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D14585ABF224938F3491839 /* Pods_moodmusic_moodmusicUITests.framework */; };
+		607F0F60F5E2D232CA386A2A /* Pods_moodmusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4ECD9B131CC53AC3354605 /* Pods_moodmusic.framework */; };
+		697DF07E25CAEBD300653067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DF07D25CAEBD300653067 /* AppDelegate.swift */; };
+		697DF08325CAEC0700653067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DF08225CAEC0700653067 /* ViewController.swift */; };
+		697DF08D25CAEE3500653067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 697DF08C25CAEE3500653067 /* GoogleService-Info.plist */; };
+		69C42FBA25CAF8CE00A80D6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C42FB925CAF8CE00A80D6A /* SceneDelegate.swift */; };
+		69C42FBF25CAF90100A80D6A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C42FBE25CAF90100A80D6A /* Config.swift */; };
+		69C4301B25CB0BCF00A80D6A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 69C4301A25CB0BCF00A80D6A /* .gitignore */; };
+		69EA79EB25CAD88100ECC3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EA79EA25CAD88100ECC3AC /* Assets.xcassets */; };
+		69EA79EE25CAD88100ECC3AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69EA79ED25CAD88100ECC3AC /* Preview Assets.xcassets */; };
+		69EA79F125CAD88100ECC3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EA79EF25CAD88100ECC3AC /* LaunchScreen.storyboard */; };
+		69EA79FC25CAD88200ECC3AC /* moodmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA79FB25CAD88200ECC3AC /* moodmusicTests.swift */; };
+		69EA7A0725CAD88200ECC3AC /* moodmusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA7A0625CAD88200ECC3AC /* moodmusicUITests.swift */; };
+		69EA7A5C25CAE1E600ECC3AC /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EA7A5B25CAE1E600ECC3AC /* SpotifyiOS.framework */; };
+		F81FA095D944E8E0B209EA5F /* Pods_moodmusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91C9F8F05170D922256118 /* Pods_moodmusicTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69EA79F825CAD88200ECC3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EA79D925CAD88100ECC3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69EA79E025CAD88100ECC3AC;
+			remoteInfo = moodmusic;
+		};
+		69EA7A0325CAD88200ECC3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69EA79D925CAD88100ECC3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69EA79E025CAD88100ECC3AC;
+			remoteInfo = moodmusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D14585ABF224938F3491839 /* Pods_moodmusic_moodmusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodmusic_moodmusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1289507857B4F57AFB928B8E /* Pods-moodmusic-moodmusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusic-moodmusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-moodmusic-moodmusicUITests/Pods-moodmusic-moodmusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E91C9F8F05170D922256118 /* Pods_moodmusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodmusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A52B9AA305B3AC5ADC98A2 /* Pods-moodmusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusicTests.debug.xcconfig"; path = "Target Support Files/Pods-moodmusicTests/Pods-moodmusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		697DF07D25CAEBD300653067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		697DF08225CAEC0700653067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		697DF08C25CAEE3500653067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69C42FB925CAF8CE00A80D6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69C42FBE25CAF90100A80D6A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		69C4301A25CB0BCF00A80D6A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		69EA79E125CAD88100ECC3AC /* moodmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EA79EA25CAD88100ECC3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69EA79ED25CAD88100ECC3AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69EA79F025CAD88100ECC3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69EA79F225CAD88100ECC3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69EA79F725CAD88200ECC3AC /* moodmusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodmusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EA79FB25CAD88200ECC3AC /* moodmusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodmusicTests.swift; sourceTree = "<group>"; };
+		69EA79FD25CAD88200ECC3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69EA7A0225CAD88200ECC3AC /* moodmusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodmusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EA7A0625CAD88200ECC3AC /* moodmusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodmusicUITests.swift; sourceTree = "<group>"; };
+		69EA7A0825CAD88200ECC3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69EA7A1B25CAD95100ECC3AC /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../Downloads/ios-sdk-master/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		69EA7A1D25CAD99100ECC3AC /* MoodMusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoodMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		69EA7A4E25CAE19D00ECC3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69EA7A5025CAE1AC00ECC3AC /* ios-sdk-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ios-sdk-master"; path = "../../Downloads/ios-sdk-master"; sourceTree = "<group>"; };
+		69EA7A5B25CAE1E600ECC3AC /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "ios-sdk-master/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		A4625039DF251C360C81D2D7 /* Pods-moodmusic-moodmusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusic-moodmusicUITests.release.xcconfig"; path = "Target Support Files/Pods-moodmusic-moodmusicUITests/Pods-moodmusic-moodmusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8E79240E688E2748AE4F6BA /* Pods-moodmusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusic.debug.xcconfig"; path = "Target Support Files/Pods-moodmusic/Pods-moodmusic.debug.xcconfig"; sourceTree = "<group>"; };
+		D21A13E8DD72A99BE84B517C /* Pods-moodmusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusicTests.release.xcconfig"; path = "Target Support Files/Pods-moodmusicTests/Pods-moodmusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCBF13A5B8628FAA75BD167D /* Pods-moodmusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmusic.release.xcconfig"; path = "Target Support Files/Pods-moodmusic/Pods-moodmusic.release.xcconfig"; sourceTree = "<group>"; };
+		EE4ECD9B131CC53AC3354605 /* Pods_moodmusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodmusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69EA79DE25CAD88100ECC3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EA7A5C25CAE1E600ECC3AC /* SpotifyiOS.framework in Frameworks */,
+				607F0F60F5E2D232CA386A2A /* Pods_moodmusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA79F425CAD88200ECC3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81FA095D944E8E0B209EA5F /* Pods_moodmusicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA79FF25CAD88200ECC3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAD09D0AC4AB3491C147471 /* Pods_moodmusic_moodmusicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C4301125CB065000A80D6A /* python */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+		69EA79D825CAD88100ECC3AC = {
+			isa = PBXGroup;
+			children = (
+				69C4301A25CB0BCF00A80D6A /* .gitignore */,
+				69C4301125CB065000A80D6A /* python */,
+				69EA7A1D25CAD99100ECC3AC /* MoodMusic-Bridging-Header.h */,
+				69EA79E325CAD88100ECC3AC /* moodmusic */,
+				69EA79FA25CAD88200ECC3AC /* moodmusicTests */,
+				69EA7A0525CAD88200ECC3AC /* moodmusicUITests */,
+				69EA79E225CAD88100ECC3AC /* Products */,
+				69EA7A1A25CAD95100ECC3AC /* Frameworks */,
+				DDA0F4B47B67D3B88369228F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		69EA79E225CAD88100ECC3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69EA79E125CAD88100ECC3AC /* moodmusic.app */,
+				69EA79F725CAD88200ECC3AC /* moodmusicTests.xctest */,
+				69EA7A0225CAD88200ECC3AC /* moodmusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69EA79E325CAD88100ECC3AC /* moodmusic */ = {
+			isa = PBXGroup;
+			children = (
+				697DF08C25CAEE3500653067 /* GoogleService-Info.plist */,
+				69EA79EA25CAD88100ECC3AC /* Assets.xcassets */,
+				69EA79EF25CAD88100ECC3AC /* LaunchScreen.storyboard */,
+				69EA79F225CAD88100ECC3AC /* Info.plist */,
+				69EA79EC25CAD88100ECC3AC /* Preview Content */,
+				697DF07D25CAEBD300653067 /* AppDelegate.swift */,
+				697DF08225CAEC0700653067 /* ViewController.swift */,
+				69C42FBE25CAF90100A80D6A /* Config.swift */,
+				69C42FB925CAF8CE00A80D6A /* SceneDelegate.swift */,
+			);
+			path = moodmusic;
+			sourceTree = "<group>";
+		};
+		69EA79EC25CAD88100ECC3AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69EA79ED25CAD88100ECC3AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69EA79FA25CAD88200ECC3AC /* moodmusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				69EA79FB25CAD88200ECC3AC /* moodmusicTests.swift */,
+				69EA79FD25CAD88200ECC3AC /* Info.plist */,
+			);
+			path = moodmusicTests;
+			sourceTree = "<group>";
+		};
+		69EA7A0525CAD88200ECC3AC /* moodmusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69EA7A0625CAD88200ECC3AC /* moodmusicUITests.swift */,
+				69EA7A0825CAD88200ECC3AC /* Info.plist */,
+			);
+			path = moodmusicUITests;
+			sourceTree = "<group>";
+		};
+		69EA7A1A25CAD95100ECC3AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69EA7A5B25CAE1E600ECC3AC /* SpotifyiOS.framework */,
+				69EA7A5025CAE1AC00ECC3AC /* ios-sdk-master */,
+				69EA7A4E25CAE19D00ECC3AC /* UIKit.framework */,
+				69EA7A1B25CAD95100ECC3AC /* SpotifyiOS.framework */,
+				EE4ECD9B131CC53AC3354605 /* Pods_moodmusic.framework */,
+				0D14585ABF224938F3491839 /* Pods_moodmusic_moodmusicUITests.framework */,
+				1E91C9F8F05170D922256118 /* Pods_moodmusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA0F4B47B67D3B88369228F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8E79240E688E2748AE4F6BA /* Pods-moodmusic.debug.xcconfig */,
+				DCBF13A5B8628FAA75BD167D /* Pods-moodmusic.release.xcconfig */,
+				1289507857B4F57AFB928B8E /* Pods-moodmusic-moodmusicUITests.debug.xcconfig */,
+				A4625039DF251C360C81D2D7 /* Pods-moodmusic-moodmusicUITests.release.xcconfig */,
+				58A52B9AA305B3AC5ADC98A2 /* Pods-moodmusicTests.debug.xcconfig */,
+				D21A13E8DD72A99BE84B517C /* Pods-moodmusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69EA79E025CAD88100ECC3AC /* moodmusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EA7A0B25CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusic" */;
+			buildPhases = (
+				7C378DAA00BE866E4A0CF95D /* [CP] Check Pods Manifest.lock */,
+				69EA79DD25CAD88100ECC3AC /* Sources */,
+				69EA79DE25CAD88100ECC3AC /* Frameworks */,
+				69EA79DF25CAD88100ECC3AC /* Resources */,
+				F1576F0CD6387FEB1BFAC962 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moodmusic;
+			productName = moodmusic;
+			productReference = 69EA79E125CAD88100ECC3AC /* moodmusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69EA79F625CAD88200ECC3AC /* moodmusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EA7A0E25CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusicTests" */;
+			buildPhases = (
+				47C476EEF2FF943F8CD621B4 /* [CP] Check Pods Manifest.lock */,
+				69EA79F325CAD88200ECC3AC /* Sources */,
+				69EA79F425CAD88200ECC3AC /* Frameworks */,
+				69EA79F525CAD88200ECC3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69EA79F925CAD88200ECC3AC /* PBXTargetDependency */,
+			);
+			name = moodmusicTests;
+			productName = moodmusicTests;
+			productReference = 69EA79F725CAD88200ECC3AC /* moodmusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69EA7A0125CAD88200ECC3AC /* moodmusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69EA7A1125CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusicUITests" */;
+			buildPhases = (
+				4FC6C5BB507B0F3A7C0C9A46 /* [CP] Check Pods Manifest.lock */,
+				69EA79FE25CAD88200ECC3AC /* Sources */,
+				69EA79FF25CAD88200ECC3AC /* Frameworks */,
+				69EA7A0025CAD88200ECC3AC /* Resources */,
+				B670DC46EE09E95460DD39D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69EA7A0425CAD88200ECC3AC /* PBXTargetDependency */,
+			);
+			name = moodmusicUITests;
+			productName = moodmusicUITests;
+			productReference = 69EA7A0225CAD88200ECC3AC /* moodmusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69EA79D925CAD88100ECC3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					69EA79E025CAD88100ECC3AC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					69EA79F625CAD88200ECC3AC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 69EA79E025CAD88100ECC3AC;
+					};
+					69EA7A0125CAD88200ECC3AC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 69EA79E025CAD88100ECC3AC;
+					};
+				};
+			};
+			buildConfigurationList = 69EA79DC25CAD88100ECC3AC /* Build configuration list for PBXProject "moodmusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69EA79D825CAD88100ECC3AC;
+			productRefGroup = 69EA79E225CAD88100ECC3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69EA79E025CAD88100ECC3AC /* moodmusic */,
+				69EA79F625CAD88200ECC3AC /* moodmusicTests */,
+				69EA7A0125CAD88200ECC3AC /* moodmusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69EA79DF25CAD88100ECC3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EA79F125CAD88100ECC3AC /* LaunchScreen.storyboard in Resources */,
+				697DF08D25CAEE3500653067 /* GoogleService-Info.plist in Resources */,
+				69EA79EE25CAD88100ECC3AC /* Preview Assets.xcassets in Resources */,
+				69EA79EB25CAD88100ECC3AC /* Assets.xcassets in Resources */,
+				69C4301B25CB0BCF00A80D6A /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA79F525CAD88200ECC3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA7A0025CAD88200ECC3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C476EEF2FF943F8CD621B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodmusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC6C5BB507B0F3A7C0C9A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodmusic-moodmusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C378DAA00BE866E4A0CF95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodmusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B670DC46EE09E95460DD39D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodmusic-moodmusicUITests/Pods-moodmusic-moodmusicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodmusic-moodmusicUITests/Pods-moodmusic-moodmusicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodmusic-moodmusicUITests/Pods-moodmusic-moodmusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1576F0CD6387FEB1BFAC962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodmusic/Pods-moodmusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodmusic/Pods-moodmusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodmusic/Pods-moodmusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69EA79DD25CAD88100ECC3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697DF08325CAEC0700653067 /* ViewController.swift in Sources */,
+				69C42FBF25CAF90100A80D6A /* Config.swift in Sources */,
+				697DF07E25CAEBD300653067 /* AppDelegate.swift in Sources */,
+				69C42FBA25CAF8CE00A80D6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA79F325CAD88200ECC3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EA79FC25CAD88200ECC3AC /* moodmusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EA79FE25CAD88200ECC3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EA7A0725CAD88200ECC3AC /* moodmusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69EA79F925CAD88200ECC3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69EA79E025CAD88100ECC3AC /* moodmusic */;
+			targetProxy = 69EA79F825CAD88200ECC3AC /* PBXContainerItemProxy */;
+		};
+		69EA7A0425CAD88200ECC3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69EA79E025CAD88100ECC3AC /* moodmusic */;
+			targetProxy = 69EA7A0325CAD88200ECC3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69EA79EF25CAD88100ECC3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69EA79F025CAD88100ECC3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69EA7A0925CAD88200ECC3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69EA7A0A25CAD88200ECC3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69EA7A0C25CAD88200ECC3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E79240E688E2748AE4F6BA /* Pods-moodmusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"moodmusic/Preview Content\"";
+				DEVELOPMENT_TEAM = Q997WJ27H5;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-master",
+				);
+				INFOPLIST_FILE = moodmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.saeedaMoodMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoodMusic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69EA7A0D25CAD88200ECC3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBF13A5B8628FAA75BD167D /* Pods-moodmusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"moodmusic/Preview Content\"";
+				DEVELOPMENT_TEAM = Q997WJ27H5;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-sdk-master",
+				);
+				INFOPLIST_FILE = moodmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.saeedaMoodMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MoodMusic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69EA7A0F25CAD88200ECC3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A52B9AA305B3AC5ADC98A2 /* Pods-moodmusicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodmusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.moodmusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodmusic.app/moodmusic";
+			};
+			name = Debug;
+		};
+		69EA7A1025CAD88200ECC3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21A13E8DD72A99BE84B517C /* Pods-moodmusicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodmusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.moodmusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodmusic.app/moodmusic";
+			};
+			name = Release;
+		};
+		69EA7A1225CAD88200ECC3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1289507857B4F57AFB928B8E /* Pods-moodmusic-moodmusicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodmusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.moodmusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodmusic;
+			};
+			name = Debug;
+		};
+		69EA7A1325CAD88200ECC3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4625039DF251C360C81D2D7 /* Pods-moodmusic-moodmusicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moodmusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.moodmusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodmusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69EA79DC25CAD88100ECC3AC /* Build configuration list for PBXProject "moodmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA7A0925CAD88200ECC3AC /* Debug */,
+				69EA7A0A25CAD88200ECC3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69EA7A0B25CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA7A0C25CAD88200ECC3AC /* Debug */,
+				69EA7A0D25CAD88200ECC3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69EA7A0E25CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA7A0F25CAD88200ECC3AC /* Debug */,
+				69EA7A1025CAD88200ECC3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69EA7A1125CAD88200ECC3AC /* Build configuration list for PBXNativeTarget "moodmusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EA7A1225CAD88200ECC3AC /* Debug */,
+				69EA7A1325CAD88200ECC3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69EA79D925CAD88100ECC3AC /* Project object */;
+}
