@@ -1,4 +1,4 @@
-# moodmusic
+# moodmusic (WIP)
 
 Mood-based music recommendation application. 
 
